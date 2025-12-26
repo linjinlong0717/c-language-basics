@@ -10,19 +10,19 @@ int main()
     bool isStudent = true;
     bool isWorking = false;
     unsigned char byte = 255;
-    printf("====== Êı¾İÀàĞÍ´óĞ¡ ======\n");
+    printf("====== æ•°æ®ç±»å‹å¤§å° ======\n");
     printf("int: %zu bytes\n", sizeof(int));
     printf("short: %zu bytes\n", sizeof(short));
     printf("float: %zu bytes\n", sizeof(float));
     printf("double: %zu bytes\n", sizeof(double));
     printf("char: %zu bytes\n", sizeof(char));
     printf("bool: %zu bytes\n", sizeof(bool));
-    printf("====== ±äÁ¿Ê¾Àı ======\n");
-    printf("ÄêÁä£º%d Ëê\n", age);
-    printf("¼Û¸ñ: %.2f Ôª\n", price);
-    printf("Ô²ÖÜÂÊ: %.7f\n", pi);
-    printf("³É¼¨µÈ¼¶£º%c\n", grade);
-    printf("ÊÇ·ñÎªÑ§Éú£º%d\n", isStudent);
-    printf("ÎŞ·ûºÅ×Ö·ûÖµ£º%u\n", byte);
+    printf("====== å˜é‡ç¤ºä¾‹ ======\n");
+    printf("å¹´é¾„ï¼š%d å²\n", age);
+    printf("ä»·æ ¼: %.2f å…ƒ\n", price);
+    printf("åœ†å‘¨ç‡: %.7f\n", pi);
+    printf("æˆç»©ç­‰çº§ï¼š%c\n", grade);
+    printf("æ˜¯å¦ä¸ºå­¦ç”Ÿï¼š%d\n", isStudent);
+    printf("æ— ç¬¦å·å­—ç¬¦å€¼ï¼š%u\n", byte);
     return 0;
 }
